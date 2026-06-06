@@ -7,6 +7,10 @@ Tools-Evaluator is a lightweight desktop application built with **Python**, **Tk
 Whether you're fine-tuning **FunctionGemma**, **Gemma**, **Qwen**, **Llama**, **Mistral**, or any other tool-calling model, Tools-Evaluator helps you benchmark performance and inspect failures efficiently.
 
 ---
+## Download
+
+➡️ Download the latest release from:
+https://github.com/SRJ2910/Tools-Evaluator/releases
 
 ## ✨ Features
 
