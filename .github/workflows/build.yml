@@ -31,7 +31,13 @@ jobs:
 
       - name: Build Executable
         run: |
-          pyinstaller --onefile --windowed --name Tools-Evaluator app.py
+          pyinstaller `
+            --onefile `
+            --windowed `
+            --name Tools-Evaluator `
+            --collect-all torch `
+            --collect-all transformers `
+            app.py
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v2
